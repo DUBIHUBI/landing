@@ -1,0 +1,14 @@
+/* Your button CSS file */
+.btn-yours {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: 0.75s;
+}
+
+.btn-yours:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}

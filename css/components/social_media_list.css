@@ -1,0 +1,19 @@
+/* Your button CSS file */
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.fa-brands {
+  color: whitesmoke;
+  font-size: 24px;
+  transition: 0.75s;
+}
+
+.fa-brands:hover {
+  font-size: 32px;
+}
