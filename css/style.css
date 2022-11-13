@@ -25,6 +25,36 @@ a {
 }
 
 /* Custom design below! */
+.header,
+.footer {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.header .links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+}
+
+.header a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
 
 #banner {
   height: 500px;
@@ -50,7 +80,6 @@ a {
 }
 
 .footer {
-  background: #1E2022;
   text-align: center;
   padding: 40px;
 }
