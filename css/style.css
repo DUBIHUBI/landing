@@ -14,6 +14,9 @@
 body {
   margin: 0;
   font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
 }
 
 h1, h2, h3, h4 {
@@ -58,7 +61,7 @@ a {
 
 #banner {
   height: 500px;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/background.png");
+  background-image: linear-gradient(#1F2937FF, #1F293733, #1F293733), url("../images/background.png");
   background-size: cover;
   background-position: center;
   /* text-align: center; */
@@ -67,29 +70,53 @@ a {
   align-items: center;
 }
 
-#banner .container {
-  color: whitesmoke;
+#banner h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  margin: 0;
 }
 
-#banner .container h1 {
-  font-size: 32px;
-}
-
-#banner .container p {
+#banner p {
   font-size: 18px;
+  color: #E5E7EB;
+  margin: 0 0 16px 0;
+}
+
+.container .title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin: 48px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 0 25%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-section .quote {
+  font-size: 36px;
+  font-weight: light;
+  color: #1F2937;
+}
+
+.quote-section .author {
+  text-align: end;
 }
 
 .footer {
   text-align: center;
   padding: 40px;
+  /* height: 300px; */
 }
 
 .footer h2 {
   color: whitesmoke;
-}
-
-.container h2 {
-  text-align: center;
 }
 
 .footer p {

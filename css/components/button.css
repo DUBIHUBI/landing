@@ -6,6 +6,7 @@
   padding: 12px 24px;
   border-radius: 8px;
   transition: 0.75s;
+  display: inline-block;
 }
 
 .btn-yours:hover {
